@@ -32,7 +32,7 @@ It includes the following improvements:
 Similar capabilities as text-davinci-003 but compatible with legacy Completions endpoint and not Chat Completions.
 
 ### Update 9/18/2023
-*Since text-davinci-003 model will be depreciated in 01/2024, I have replaced text-davinci-003 with gpt-3.5-turbo-instruct as recommanded on [OpenAI website.](https://platform.openai.com/docs/deprecations)*
+*Since text-davinci-003 model will be depreciated in 01/2024, I have replaced text-davinci-003 with gpt-3.5-turbo-instruct as recommended on [OpenAI website.](https://platform.openai.com/docs/deprecations)*
 
 
 <br>
