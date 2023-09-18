@@ -1,5 +1,5 @@
 # **ML - Create a Customer Support Website with OPENAI models**
-[Google Slides for Python](https://docs.google.com/presentation/d/110wkdPLv1HxS2wEj5NBrm1Br9f2UYO70l4Yxp-dtXrE/edit?usp=sharing)
+[Google Slides](https://docs.google.com/presentation/d/110wkdPLv1HxS2wEj5NBrm1Br9f2UYO70l4Yxp-dtXrE/edit?usp=sharing)
 
 ## **Introduction**
 
