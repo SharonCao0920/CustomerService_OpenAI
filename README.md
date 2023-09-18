@@ -56,12 +56,16 @@ $ git clone https://github.com/SharonCao0920/CustomerService_OpenAI.git
 ```
 ### To run NodeJS version
 
+Please read [details](https://github.com/SharonCao0920/CustomerService_OpenAI/tree/main/NodeJS) for getting ready to compile.
+
 ```
 $ cd NodeJS
 $ npm run dev
 ```
 
 ### To run Python version
+
+Please read [details](https://github.com/SharonCao0920/CustomerService_OpenAI/tree/main/Python) for getting ready to compile.
 
 ```
 $ cd Python
