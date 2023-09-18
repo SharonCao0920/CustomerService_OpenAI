@@ -1,33 +1,4 @@
-# **ML - Create a Customer Support Website with ChatGPT models**
-[Google Slides](https://docs.google.com/presentation/d/110wkdPLv1HxS2wEj5NBrm1Br9f2UYO70l4Yxp-dtXrE/edit?usp=sharing)
-
-## **Introduction**
-
-This project is to use the popular ChatGPT models to create a customer support website to answer questions from customers about their website.
-
-### OpenAI API Models
-
-#### *text-embedding-ada-002*
-
-OpenAI’s text embeddings measure the relatedness of text strings. Embeddings are commonly used for:
-
-* **Search** (where results are ranked by relevance to a query string)
-* **Clustering** (where text strings are grouped by similarity)
-* **Recommendations** (where items with related text strings are recommended)
-* **Anomaly detection** (where outliers with little relatedness are identified)
-* **Diversity measurement** (where similarity distributions are analyzed)
-* **Classification** (where text strings are classified by their most similar label)
-
-#### *text-davinci-003*
-
-This model builds on top of previous InstructGPT models, and improves on a number of behaviors that we’ve heard are important to you as developers.
-
-It includes the following improvements:
-* It produces higher quality writing. This will help your applications deliver clearer, more engaging, and more compelling content.
-* It can handle more complex instructions, meaning you can get even more creative with how you make use of its capabilities now.
-* It’s better at longer form content generation, allowing you to take on tasks that would have previously been too difficult to achieve.
-
-<br>
+# Project with Python
 
 ## **Design**
 
@@ -107,32 +78,6 @@ It includes the following improvements:
    <img width="489" alt="Screenshot 2023-03-25 220826" src="https://user-images.githubusercontent.com/54694766/227764976-84454963-3e2b-4455-b39f-2d96e55b0688.png">
 
 
-<br>
-
-### **Tips on Saving Money for Developing**
-
-OpenAI charges based on tokens, so to minimize the cost of deveopment for this project, I used a small size of data while developing to make the use of the grant given by the platform.
-
-1. Run ```$ python3 crawaldata.py``` to make sure data crawling works
-
-2. Create your own testing data and save it as ```processed/data.csv``` using the same structure as of ```processed/scraped.csv```. 
-
-![Screenshot 2023-03-16 014014](https://user-images.githubusercontent.com/54694766/228060450-1c657372-08d7-41cf-b304-af291a6101e4.png)
-
-<img width="188" alt="image" src="https://user-images.githubusercontent.com/54694766/228059942-d5662acf-14f2-4a91-8772-0bc83d7667ac.png">
-
-3. Modify the code in ```embedText.py``` to read csv file ```processed/data.csv``` instead of ```processed/scraped.csv```.
-
-<img width="501" alt="image" src="https://user-images.githubusercontent.com/54694766/228060086-213d5f85-beed-4afc-aabf-605ad3b2d60a.png">
-
-4. Run ```$ python3 embedText.py``` to embed the data.
-
-5. Run ```$ flask run``` to test the project by asking questions about the testing data in browser. 
-
-<img width="481" alt="Screenshot 2023-03-19 211449" src="https://user-images.githubusercontent.com/54694766/228060541-47a04fdb-185f-474f-9de5-4954b2c27f6c.png">
-
-6. Once the project is working as desired, link your payment method on OpenAI and embed ```processed/scraped.csv``` then test project with ```$ flask run```.
-
 
 ### *Note:*
 I kept crawldate.py and embedText.py seperate from app.py since I only want to crawl and embed the data once to save time and money. 
@@ -141,7 +86,7 @@ So, before runing embedText.py, you need to config the OPENAI_API_KEY to use the
 
 Run in terminal:
 ```
-$ export OPENAI_API_Key=<Your API KEY>
+$ export OPENAI_API_Key=<Your_API_KEY>
 ```
 
 <br>

@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "install": "pip install -r requirements.txt",
     "crawl": "python3 crawldata.py ",
-    "embeding": "python3 embedText.py"
+    "embedding": "python3 embedText.py"
   },
   "dependencies": {
     "child_process": "^1.0.2",
