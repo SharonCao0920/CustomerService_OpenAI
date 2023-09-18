@@ -1,4 +1,4 @@
-# **ML - Create a Customer Support Website with OPENAI models**
+# **Customer Support Website with OPENAI APIs**
 [Google Slides](https://docs.google.com/presentation/d/110wkdPLv1HxS2wEj5NBrm1Br9f2UYO70l4Yxp-dtXrE/edit?usp=sharing)
 
 ## **Introduction**
