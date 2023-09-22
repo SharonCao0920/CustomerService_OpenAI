@@ -62,7 +62,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ![Screenshot 2023-09-18 010108](https://github.com/SharonCao0920/CustomerService_OpenAI/assets/54694766/302d6354-636d-477a-840a-7e81206d6001)
 
+![Screenshot 2023-09-21 191909](https://github.com/SharonCao0920/CustomerService_OpenAI/assets/54694766/496f97ef-83e2-4c7b-86b1-8034edc2f75c)
 
+![Screenshot 2023-09-21 191938](https://github.com/SharonCao0920/CustomerService_OpenAI/assets/54694766/2fb581c9-dba7-40b0-8abd-26b89026fe60)
 
 
 
